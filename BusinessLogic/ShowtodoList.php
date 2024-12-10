@@ -9,7 +9,7 @@ function showTodoList()
 
     echo "TODOLIST" .PHP_EOL;
 
-    foreach ($todoList as $number => $value) {
+    foreach ($todoList as $number => $value){
         echo "$number. $value" .PHP_EOL;
     }
 }
